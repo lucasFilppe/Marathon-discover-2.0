@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #18324e;
+  color: aliceblue;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+img.avatar {
+  width: 100%; /*ocupara 100% da largura da caixa em que esta */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none; /*tira os pontos da ul*/
+}
+
+h1 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/*display é como as caixais se conportam*/
+ul li a {
+  height: 53px;
+  display: block; /*mantem conteudos na mesma linha*/
+  display: flex; /*nos permite usar algumas propriedades*/
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background: #3e5e80;
+
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+ul li a:hover {
+  background: blue;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
